@@ -1,5 +1,5 @@
 name: My First GitHub Actions
-# test commit
+# test commit to check github hosted actions
 
 on: [push]
 
