@@ -1,11 +1,11 @@
 name: My First GitHub Actions
-# test commit to check github hosted actions
+# test commit to check self hosting
 
 on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       matrix:
